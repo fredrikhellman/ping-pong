@@ -1,12 +1,11 @@
 # Ping pong
 
-This application that spawns two threads, each sharing a state that can be toggled between `false` and `true`.
-One thread toggles it to `true` if it is found `false` and the other does the opposite.
-A mutex protects the state.
-The application can be run in two modes: `wait` and `spin`:
- * In mode `wait`, a condition variable is used to let a thread wait until the state has changed by the other thread.
- * In mode `spin`, the lock is repeatedly acquired to check if the state has to change.
- * In mode `atomic`, the state is an atomic variable that is checked repeatedly by both threads.
+This application spawns `num_threads` threads, each sharing a value that should be decreased to zero.
+Each thread is responsible for decreasing it when its value modulo `num_threads` is a specific value, depending on the thread.
+The application can be run in three modes: `wait`, `spin`, and `atomic`:
+ * In mode `wait`, the value is mutex protected and a condition variable is used to let a thread wait until the value has changed by another thread.
+ * In mode `spin`, the value is mutex protected and a lock is repeatedly acquired to check if the value has to change.
+ * In mode `atomic`, the value is an atomic variable that is checked repeatedly by all threads.
 
 ## How to run
 
