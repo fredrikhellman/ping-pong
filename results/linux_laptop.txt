@@ -1,0 +1,180 @@
+Building Debug with clang++.
+-- The CXX compiler identification is Clang 6.0.0
+-- Check for working CXX compiler: /usr/bin/clang++
+-- Check for working CXX compiler: /usr/bin/clang++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Looking for C++ include pthread.h
+-- Looking for C++ include pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/fredrik/git/ping-pong/build-clang++-Debug
+[1/3] Building CXX object CMakeFiles/pingpong.dir/pingpong.cc.o
+[2/3] Linking CXX executable pingpong
+[2/3] Install the project...
+-- Install configuration: "Debug"
+-- Installing: /home/fredrik/git/ping-pong/build-clang++-Debug/install/./pingpong
+-- Installing: /home/fredrik/git/ping-pong/build-clang++-Debug/install/./run.sh
+Running executable built in Debug with clang++.
+wait
+
+real	0m2.239s
+user	0m0.793s
+sys	0m2.566s
+
+spin
+
+real	0m0.358s
+user	0m0.359s
+sys	0m0.355s
+
+atomic
+
+real	0m0.064s
+user	0m0.125s
+sys	0m0.000s
+
+Building Release with clang++.
+-- The CXX compiler identification is Clang 6.0.0
+-- Check for working CXX compiler: /usr/bin/clang++
+-- Check for working CXX compiler: /usr/bin/clang++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Looking for C++ include pthread.h
+-- Looking for C++ include pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/fredrik/git/ping-pong/build-clang++-Release
+[1/3] Building CXX object CMakeFiles/pingpong.dir/pingpong.cc.o
+[2/3] Linking CXX executable pingpong
+[2/3] Install the project...
+-- Install configuration: "Release"
+-- Installing: /home/fredrik/git/ping-pong/build-clang++-Release/install/./pingpong
+-- Installing: /home/fredrik/git/ping-pong/build-clang++-Release/install/./run.sh
+Running executable built in Release with clang++.
+wait
+
+real	0m2.306s
+user	0m1.018s
+sys	0m2.390s
+
+spin
+
+real	0m0.309s
+user	0m0.336s
+sys	0m0.280s
+
+atomic
+
+real	0m0.069s
+user	0m0.137s
+sys	0m0.000s
+
+Building Debug with g++.
+-- The CXX compiler identification is GNU 7.4.0
+-- Check for working CXX compiler: /usr/bin/g++
+-- Check for working CXX compiler: /usr/bin/g++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Looking for C++ include pthread.h
+-- Looking for C++ include pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/fredrik/git/ping-pong/build-g++-Debug
+[1/3] Building CXX object CMakeFiles/pingpong.dir/pingpong.cc.o
+[2/3] Linking CXX executable pingpong
+[2/3] Install the project...
+-- Install configuration: "Debug"
+-- Installing: /home/fredrik/git/ping-pong/build-g++-Debug/install/./pingpong
+-- Installing: /home/fredrik/git/ping-pong/build-g++-Debug/install/./run.sh
+Running executable built in Debug with g++.
+wait
+
+real	0m2.326s
+user	0m1.069s
+sys	0m2.312s
+
+spin
+
+real	0m0.370s
+user	0m0.385s
+sys	0m0.345s
+
+atomic
+
+real	0m0.062s
+user	0m0.116s
+sys	0m0.004s
+
+Building Release with g++.
+-- The CXX compiler identification is GNU 7.4.0
+-- Check for working CXX compiler: /usr/bin/g++
+-- Check for working CXX compiler: /usr/bin/g++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Looking for C++ include pthread.h
+-- Looking for C++ include pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/fredrik/git/ping-pong/build-g++-Release
+[1/3] Building CXX object CMakeFiles/pingpong.dir/pingpong.cc.o
+[2/3] Linking CXX executable pingpong
+[2/3] Install the project...
+-- Install configuration: "Release"
+-- Installing: /home/fredrik/git/ping-pong/build-g++-Release/install/./pingpong
+-- Installing: /home/fredrik/git/ping-pong/build-g++-Release/install/./run.sh
+Running executable built in Release with g++.
+wait
+
+real	0m2.334s
+user	0m0.845s
+sys	0m2.516s
+
+spin
+
+real	0m0.347s
+user	0m0.336s
+sys	0m0.352s
+
+atomic
+
+real	0m0.064s
+user	0m0.127s
+sys	0m0.000s
+
